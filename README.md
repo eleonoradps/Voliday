@@ -1,13 +1,16 @@
 # Voliday
-## Guide des différentes branches 
-Il y a différentes branches pour les mécaniques du jeu. En voici une liste :
-- prototype_GAS
-- prototype_gameplay
-- buildings_features
-- time_system
-- IA
+## Branches
+### Branches principales
 
-Si vous souhaitez faire une nouvelle branche pour votre tâche vous pouvez. Veuillez la nommer en prenant exemple sur les noms des branches ci-dessus. 
+- Les branches principales du projet sont : prototype_GAS et prototype_gameplay.
+- Veuillez ne pas travailler sur ces branches.
 
-**! NE PUSHEZ PAS SUR MAIN !**
+### Branches de production
 
+- Pour vos tâches respectives, vous allez devoir nommer vos branches comme ceci : features/le_nom_de_la_feature.
+
+Exemple : features/buildings_system
+
+- Si vous utilisez git bash, vous devez faire la commande git checkout -b features/le_nom_de_la_feature
+
+Exemple : git checkout -b features/buildings_system
