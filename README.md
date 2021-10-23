@@ -8,4 +8,6 @@ Il y a différentes branches pour les mécaniques du jeu. En voici une liste :
 - IA
 
 Si vous souhaitez faire une nouvelle branche pour votre tâche vous pouvez. Veuillez la nommer en prenant exemple sur les noms des branches ci-dessus. 
+
 **! NE PUSHEZ PAS SUR MAIN !**
+
