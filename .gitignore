@@ -70,5 +70,9 @@ DerivedDataCache/*
 
 # Wwise files
 Voliday_WwiseProject/.cache/
-Plugins/Wwise/Source/
-Plugins/Wwise/ThirdParty/
+Plugins/Wwise/ThirdParty/x64_vc150/
+Plugins/Wwise/ThirdParty/x64_vc140/
+Plugins/Wwise/ThirdParty/Win32_vc160/
+Plugins/Wwise/ThirdParty/Win32_vc150/
+Plugins/Wwise/ThirdParty/Win32_vc140/
+Plugins/Wwise/ThirdParty/Mac/
