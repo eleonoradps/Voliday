@@ -68,9 +68,13 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # Wwise files
-Voliday_WwiseProject/.cache/
-Plugins/Wwise/ThirdParty/Win32_vc160/
-Plugins/Wwise/ThirdParty/Win32_vc150/
-Plugins/Wwise/ThirdParty/Win32_vc140/
-Plugins/Wwise/ThirdParty/Mac/
-Plugins/Wwise/Binaries/
+Voliday_WwiseProject/.cache/*
+Plugins/Wwise/ThirdParty/Win32_vc150/*
+Plugins/Wwise/ThirdParty/Win32_vc140/*
+Voliday_WwiseProject/GeneratedSoundBanks/*
+
+# Wwise files from https://gist.github.com/binary1230/983ca3168c8a92ab7b295b2a47a84b84
+Voliday_WwiseProject/*.prof
+Voliday_WwiseProject/*_WwiseProject.*.validationcache
+Voliday_WwiseProject/*_WwiseProject.*.wsettings
+Voliday_WwiseProject/**/*.akd
