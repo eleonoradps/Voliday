@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C30316B5-5139-4443-B1E6-0C15982C827E}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{C30316B5-5139-4443-B1E6-0C15982C827E}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="TEST_ConstructionEvent" ID="{DD0B2EBA-E925-43AB-A01C-598732ADDD33}">
-					<ChildrenList>
-						<Action Name="" ID="{977E6625-0707-4AEB-9E3A-A159FD9F7474}" ShortID="737849660">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TEST_RandomContainer" ID="{CB6A0982-E3C7-4893-BD43-F716DE15C9AB}" WorkUnitID="{6FF99B2B-1FCD-469C-BE23-DADA50838D69}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				<WorkUnit Name="SFX" ID="{B1434884-C429-440F-AAF7-043E7897373E}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{069F4F4C-FCC2-4CA4-87A5-48D5F6898033}" PersistMode="Reference"/>
+				<WorkUnit Name="AMB" ID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}" PersistMode="Reference"/>
+				<WorkUnit Name="Game_Mechanics" ID="{586E9A77-00F7-49A7-AD1C-EF78134D1DF8}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{2067BBDB-A974-49F4-92C6-A6BEAD231BDE}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

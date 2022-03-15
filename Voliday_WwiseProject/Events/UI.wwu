@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{069F4F4C-FCC2-4CA4-87A5-48D5F6898033}" SchemaVersion="103" RootDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" ParentDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}">
+	<Events>
+		<WorkUnit Name="UI" ID="{069F4F4C-FCC2-4CA4-87A5-48D5F6898033}" OwnerID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="UI_Navigation_Menu" ID="{58E64A98-3A8D-4ACA-9232-A6318EF70DBF}" ShortID="601792926">
+					<ChildrenList>
+						<Event Name="Play_UI_Erreur" ID="{084FED74-7BC2-4584-AFBA-E03E7F8958E3}">
+							<ChildrenList>
+								<Action Name="" ID="{42E31209-5203-4F60-B0D6-69DF888A924C}" ShortID="940804200">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Erreur" ID="{63AC0E19-FB38-4F90-B87E-FAB1687BEFB3}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Fermeture_Menu" ID="{EF0EA7E3-CB4E-4098-B313-19C55A0EA23B}">
+							<ChildrenList>
+								<Action Name="" ID="{AEE2E579-38CB-4311-9962-06ACB95D592A}" ShortID="194588743">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Fermeture_Menu" ID="{0E64E13E-90EB-4B2E-97F8-8AB4E803E8C5}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Ouverture_Menu" ID="{578506F2-9795-4EA9-8245-9F8C9E2D8D9D}">
+							<ChildrenList>
+								<Action Name="" ID="{0758A66B-98A7-45D1-949A-AF7262684CD4}" ShortID="144415236">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Ouverture_Menu" ID="{51B9F6D5-E04A-41B8-BC16-185FF5E098B0}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_PauseGame" ID="{66AB7772-7C37-4D7C-B48F-B8572D70AAFB}">
+							<ChildrenList>
+								<Action Name="" ID="{A5C442EC-F6F4-4E80-B327-1326485381B1}" ShortID="417405562">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_PauseGame" ID="{235ACE0D-7BC0-4C24-9CCD-96338EE08F12}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Speed_Down" ID="{08D3AE28-E583-448D-973E-D2A2B6524B73}">
+							<ChildrenList>
+								<Action Name="" ID="{CA8ED92B-F973-474D-AA8B-D48EC9ADF30E}" ShortID="783932032">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Speed_Down" ID="{88A4170B-FA7C-450E-8544-A88347D88695}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Speed_Up" ID="{07454615-B557-42E8-8EC2-628581CDC0A0}">
+							<ChildrenList>
+								<Action Name="" ID="{5C4EEEA2-251F-45C4-B6C0-6DEC183166D0}" ShortID="436827357">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Speed_Up" ID="{60DA77CE-D6EF-45A1-9913-4051C4472C70}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Click" ID="{6CA2FF79-68DB-4D5A-9C2D-87F67B281115}">
+							<ChildrenList>
+								<Action Name="" ID="{B93EF383-9224-44EF-AFEE-A5954737B0CB}" ShortID="752039249">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Click" ID="{499B29F6-3B65-49A4-8E8C-7161FDC51336}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI_Argent" ID="{B170345D-657F-4F92-A38E-A27FA1ABF485}" ShortID="820812183">
+					<ChildrenList>
+						<Event Name="Play_UI_Argent_Plus" ID="{BF97E67C-DC6C-49A1-A00A-3ED2DAEF6392}">
+							<ChildrenList>
+								<Action Name="" ID="{EC5E9055-5E83-4E31-99DC-09934F10724E}" ShortID="418702339">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Argent_Plus" ID="{A01A81AA-8632-4D9A-8B63-58B9AB5005B0}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Argent_Moins" ID="{2A930449-D1D6-478B-8A04-8208FB8218C1}">
+							<ChildrenList>
+								<Action Name="" ID="{4A627AD9-C812-46D2-8A30-3545B1133B5E}" ShortID="537789600">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Argent_Moins" ID="{702C846D-8272-46F4-8735-EB43A3CC4979}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
