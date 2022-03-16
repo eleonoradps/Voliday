@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1434884-C429-440F-AAF7-043E7897373E}" SchemaVersion="103" RootDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" ParentDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}">
+	<Events>
+		<WorkUnit Name="SFX" ID="{B1434884-C429-440F-AAF7-043E7897373E}" OwnerID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="SFX_Activites" ID="{66D98AC0-90DB-43B4-BEB7-F68AE8D3D601}" ShortID="310240171">
+					<ChildrenList>
+						<Event Name="Play_SFX_Charrette" ID="{281336A1-2AED-4CD4-9A02-9C2FCBCD3132}">
+							<ChildrenList>
+								<Action Name="" ID="{F9A7AAFD-3ABE-440A-B879-FEFF2D9560A1}" ShortID="621983607">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Charrette" ID="{95AF3AE9-C330-4A2E-8A8C-A41B21567E43}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Randonnee" ID="{2F310619-C409-49CE-8005-E3E9F8DBA8B9}">
+							<ChildrenList>
+								<Action Name="" ID="{B063765F-7294-4742-A612-071CA8F1693B}" ShortID="659416042">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Randonnee" ID="{6C6D1C8C-94C6-41F3-A612-4B36562CBDE4}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Mine" ID="{F9A4A6A3-386A-4D48-8060-AC5EDDEAC9B5}">
+							<ChildrenList>
+								<Action Name="" ID="{EBF10FFE-35AA-4346-902A-14944D89B235}" ShortID="978893108">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Mine" ID="{F16CA2F8-2E90-4E0C-B60A-22852BF8A57C}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_Batiments" ID="{8C5D0350-7295-4D2E-B298-968E8523D0CE}" ShortID="482136360">
+					<ChildrenList>
+						<Event Name="Play_SFX_Auberge" ID="{D16B0DD5-9318-4B5C-B2F2-5EE8FF8A2762}">
+							<ChildrenList>
+								<Action Name="" ID="{DE24EDD3-57C8-4240-962C-98EE11C82BAE}" ShortID="606655205">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Auberge" ID="{0391B043-6452-4786-AFE0-CB5DAAB6489A}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Moulin" ID="{6D7F41A0-EAD5-47AC-9E43-7ACF9C11EE23}">
+							<ChildrenList>
+								<Action Name="" ID="{6DA30318-B726-4E55-BC36-9F50A9B97C7A}" ShortID="512658455">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Moulin" ID="{9C5FFAFE-5F5D-46F3-9CE1-A4B2F043AD92}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Taverne" ID="{9189AFFC-9BA5-47AA-BCD2-A33DAF5012B9}">
+							<ChildrenList>
+								<Action Name="" ID="{717AC3C8-005C-4ED9-B7A0-A934594E76CB}" ShortID="726765558">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Taverne" ID="{8265456E-2415-4DD1-94F5-297426B50431}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Bar_Tropical" ID="{2ED51B82-FD2B-43EF-9AC3-3E87DC938589}">
+							<ChildrenList>
+								<Action Name="" ID="{66DC42E2-7709-4FBF-B531-32298465E195}" ShortID="1044221383">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Building_TropicalBar" ID="{1B3F1E5A-BD2D-47A7-9205-86D2E1443C01}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Batiment_Port" ID="{8D465624-D3D9-44F2-814B-C7E1DC7C63A0}">
+							<ChildrenList>
+								<Action Name="" ID="{A95C489C-B629-4705-B1C0-ADEB102CC45F}" ShortID="242210527">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Batiments_Port" ID="{0276970A-34F1-404B-BFE7-6B524C1725C5}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Boutique_Pierres_precieuses" ID="{E2D20D3C-26A2-4D09-8377-F504054311A9}">
+							<ChildrenList>
+								<Action Name="" ID="{A521A7E4-14F6-4E29-BFA8-90F05162B185}" ShortID="110752576">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Boutique_Pierre" ID="{4453479E-D3CF-43B8-AB01-FAB451E07289}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_Construction_Batiments" ID="{CC81D2D4-1C29-4B2B-99C8-2E4A61D94267}" ShortID="50695334">
+					<ChildrenList>
+						<Event Name="Play_SFX_Construction_Batiments" ID="{0C36D0EE-AD64-40F7-A105-91B204FFF44A}">
+							<ChildrenList>
+								<Action Name="" ID="{7F1344B9-C3C2-45BA-BE28-DD44D3E4A40B}" ShortID="397209722">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Construction_Batiments" ID="{04DCA945-931C-46E2-BC88-D5E4EDEAC2E5}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_Destruction_Batiment" ID="{8A2A0519-B579-4E69-BE0D-93547692DAF1}" ShortID="159676976">
+					<ChildrenList>
+						<Event Name="Play_SFX_Destruction_Batiment" ID="{D9B967C6-9D3F-4DEA-8000-BB954C49F3D7}">
+							<ChildrenList>
+								<Action Name="" ID="{19787A5C-1FBF-4EA9-9D36-C7136F561E22}" ShortID="27189273">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Destruction_RD" ID="{29E9E175-8EF8-4455-99B7-EE8AFBEB55B2}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

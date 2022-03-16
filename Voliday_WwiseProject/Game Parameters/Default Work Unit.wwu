@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{FDA3FEE3-6B1C-47AD-A8C5-A278F77E7007}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}" SchemaVersion="103">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{FDA3FEE3-6B1C-47AD-A8C5-A278F77E7007}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Low_Pass" ID="{35FC4E5F-507A-4FF4-AE31-F995E2F45734}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="New_Game_Parameter" ID="{A01BC74A-DB63-43FE-9D29-72A95127DB75}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
