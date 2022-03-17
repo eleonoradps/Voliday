@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}" SchemaVersion="103" RootDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" ParentDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}">
+	<Events>
+		<WorkUnit Name="AMB" ID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}" OwnerID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Ambiance" ID="{21882761-C978-45F0-81FE-AB8D64280D32}">
+					<ChildrenList>
+						<Action Name="" ID="{417D60EC-71CD-45D5-BA41-77F04107EDBA}" ShortID="940119231">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Ile_Altitude" ID="{782FB5F6-7736-4A80-BB9C-F45B86D4349E}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B4EC72A7-ACD5-4B15-B637-F9D02A9C86E5}" ShortID="358663819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Ile_Mer" ID="{0899EB21-15DF-4611-AD4A-FEBEF8E26152}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{41EFD9D4-EBB8-453D-BF20-27707F82E5DB}" ShortID="742432874">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Ile_Plage" ID="{26A380C2-9B8C-401F-9466-405886EFD66A}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CB42B9CD-FD48-4D72-A269-B36E49ECD1BB}" ShortID="663392460">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_Mer_Mouettes_Rd" ID="{3B0101F4-4F28-4499-9018-182C34C19E5F}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Bruissement_Palmiers" ID="{BB536CD6-1185-4EB5-9561-D4EDB56ED6C3}">
+					<ChildrenList>
+						<Action Name="" ID="{8B469253-A306-425D-B3E6-3868B6EFB3EF}" ShortID="307968545">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_3D_Palmier_Bruissements_Rd" ID="{576B6840-ABF0-4F3A-B7EA-4382A105EAED}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

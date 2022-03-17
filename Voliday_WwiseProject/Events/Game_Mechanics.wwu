@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{586E9A77-00F7-49A7-AD1C-EF78134D1DF8}" SchemaVersion="103" RootDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" ParentDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}">
+	<Events>
+		<WorkUnit Name="Game_Mechanics" ID="{586E9A77-00F7-49A7-AD1C-EF78134D1DF8}" OwnerID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Set_State_In_Menu" ID="{7722EB5A-51C4-4F9D-87E2-2C26D1B4908A}">
+					<ChildrenList>
+						<Action Name="" ID="{8D695B7D-4F42-4016-9FB5-4FCE710AAE65}" ShortID="550130143">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="In_Menu" ID="{CE12D326-EAB2-44DE-B636-CD2F2A2BC089}" WorkUnitID="{6151A936-982C-4051-AB40-51F3F782AB15}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7068750D-2FF5-4D34-A470-B080A62F2605}" ShortID="506887785">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_UI_Ouverture_Menu" ID="{578506F2-9795-4EA9-8245-9F8C9E2D8D9D}" WorkUnitID="{069F4F4C-FCC2-4CA4-87A5-48D5F6898033}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_State_In_Game" ID="{DAA228E4-DED2-4B66-917C-541BB3D28491}">
+					<ChildrenList>
+						<Action Name="" ID="{84487003-0D52-48D4-9EC5-8CBA1D46CDDE}" ShortID="497439925">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="In_Game" ID="{9329DF14-03B9-49E2-87C2-71EEA7117003}" WorkUnitID="{6151A936-982C-4051-AB40-51F3F782AB15}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7733EB5-DDDE-468A-BD39-A02047E90575}" ShortID="692832886">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_UI_Fermeture_Menu" ID="{EF0EA7E3-CB4E-4098-B313-19C55A0EA23B}" WorkUnitID="{069F4F4C-FCC2-4CA4-87A5-48D5F6898033}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
