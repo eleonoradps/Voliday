@@ -7,13 +7,13 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="RTPC_Low_Pass" ID="{35FC4E5F-507A-4FF4-AE31-F995E2F45734}">
@@ -22,6 +22,24 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="New_Game_Parameter" ID="{A01BC74A-DB63-43FE-9D29-72A95127DB75}"/>
+				<GameParameter Name="RTPC_Distance_Riviere" ID="{256A2891-B671-4575-99C5-0910898B5B05}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Filtre_Riviere" ID="{7BF74341-969F-4A99-94D2-0A7AE482783C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Distance_Palmiers" ID="{58F7D119-CD33-4C1E-9C0B-864E0AF5BB42}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
