@@ -323,6 +323,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="SFX_Auberge_2" ID="{09563BE6-DB8F-4559-BC20-2B0435432AC5}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.60114503816794"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.21946564885496"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX\SFX_Auberge_2.wav</AudioFile>
 									<MediaIDList>
@@ -339,6 +344,13 @@
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="SFX_Construction_Batiments" ID="{6BC6A7AC-C656-4F1B-A83E-D300EC50FDE6}" ShortID="13748285">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -493,6 +505,13 @@
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="SFX_Destruction_Batiment" ID="{E2070BE5-7B32-451A-A426-2A35EDEA6145}" ShortID="963794301">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>

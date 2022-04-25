@@ -8,7 +8,7 @@
 						<Property Name="Tempo" Type="Real64" Value="121"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-9</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -35,11 +35,6 @@
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="193388.429752066"/>
 										<Property Name="Tempo" Type="Real64" Value="121"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

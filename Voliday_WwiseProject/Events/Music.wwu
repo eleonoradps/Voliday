@@ -19,6 +19,8 @@
 						<Action Name="" ID="{C9D833CD-4C27-418C-AE23-8F8F95CA8C3E}" ShortID="1066172870">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -38,6 +40,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{12F9D684-31D9-4D26-BA50-05F1E4D8ABD2}" ShortID="457402566">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="UI_In_Menu_Loop" ID="{22A9FD2D-673B-45D7-92CC-06FCE5552B2B}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
