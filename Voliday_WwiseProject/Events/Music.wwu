@@ -3,87 +3,72 @@
 	<Events>
 		<WorkUnit Name="Music" ID="{2067BBDB-A974-49F4-92C6-A6BEAD231BDE}" OwnerID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Music_Star_0" ID="{FFBA4366-A72B-4D04-B39B-37CD5B0F1870}">
+				<Event Name="Play_Music" ID="{78EB03BE-CF57-4E36-98E9-2884C6F162BF}">
 					<ChildrenList>
-						<Action Name="" ID="{7C3893AB-4C74-46D1-8A6C-C4AD9168ACB8}" ShortID="67770916">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
+						<Action Name="" ID="{E621DC77-D5F3-4E18-9818-3C95778B1204}" ShortID="892436193">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Star_0" ID="{ED1F48C4-0E6B-4D4B-A839-19488A2A8A79}" WorkUnitID="{6151A936-982C-4051-AB40-51F3F782AB15}"/>
+									<ObjectRef Name="Music_Popularite" ID="{51E3C5BB-6E70-4413-842B-EAEE4F933496}" WorkUnitID="{96B3209B-FCD0-4747-B44F-6A7FB6240357}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Music_Star_3" ID="{305E6E27-A7D6-426E-8807-840B27C6F8E4}">
+				<Event Name="Stop_Music" ID="{4598A9FA-7E5E-46EE-B0A4-C999699E1D85}">
 					<ChildrenList>
-						<Action Name="" ID="{EB73148E-C4AE-4A3D-8458-7C36102EFE0A}" ShortID="820206590">
+						<Action Name="" ID="{C9D833CD-4C27-418C-AE23-8F8F95CA8C3E}" ShortID="1066172870">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Star_3" ID="{1543FC5A-70B8-461F-9C15-1C83259998A1}" WorkUnitID="{6151A936-982C-4051-AB40-51F3F782AB15}"/>
+									<ObjectRef Name="Music_Popularite" ID="{51E3C5BB-6E70-4413-842B-EAEE4F933496}" WorkUnitID="{96B3209B-FCD0-4747-B44F-6A7FB6240357}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Music_Star_5" ID="{3025AD8D-D5E9-4C68-ACBD-7979EB76F927}">
+				<Event Name="Ouverture_Menu" ID="{70A4DB0B-D0F5-456B-BFC6-7D8D5965E0CA}">
 					<ChildrenList>
-						<Action Name="" ID="{7313D4FE-AAB2-44F2-AD55-F06594FEACB6}" ShortID="846637584">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
+						<Action Name="" ID="{71A10173-3364-40A7-800D-40D3AABC7398}" ShortID="91053521">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Star_5" ID="{2D00B6E7-6B35-4D00-B120-CFDC69CC847E}" WorkUnitID="{6151A936-982C-4051-AB40-51F3F782AB15}"/>
+									<ObjectRef Name="UI_Ouverture_Menu" ID="{51B9F6D5-E04A-41B8-BC16-185FF5E098B0}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{12F9D684-31D9-4D26-BA50-05F1E4D8ABD2}" ShortID="457402566">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_In_Menu_Loop" ID="{22A9FD2D-673B-45D7-92CC-06FCE5552B2B}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A09E5A72-B5D2-495D-9E12-09AF5C08D830}" ShortID="237450036">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_PauseGame" ID="{235ACE0D-7BC0-4C24-9CCD-96338EE08F12}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Music_Bad_On" ID="{328CEA82-AF75-4645-AAA4-26FB562A3ECB}">
+				<Event Name="Fermeture_Menu" ID="{CC9139CF-3EBB-461C-985F-C04AB3149FB9}">
 					<ChildrenList>
-						<Action Name="" ID="{34459315-5540-43C6-BB21-B7ED050859E3}" ShortID="813714101">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="11"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
+						<Action Name="" ID="{B6B6ECCC-8FD1-484A-B2DE-D510C98E2CA1}" ShortID="362839919">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Effect" ID="{39672198-C301-454F-ACC5-947A10BB19ED}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+									<ObjectRef Name="UI_Fermeture_Menu" ID="{0E64E13E-90EB-4B2E-97F8-8AB4E803E8C5}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Music" ID="{F998AD3D-F13C-4CB5-9D61-C06B36C5D1E5}">
-					<ChildrenList>
-						<Action Name="" ID="{A1483D7E-7FA0-4AE4-B97C-7EE4D78D2F12}" ShortID="498806272">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music" ID="{98560A65-2B75-4BA9-8178-5DC1A9B46907}" WorkUnitID="{96B3209B-FCD0-4747-B44F-6A7FB6240357}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Music_Bad_Off" ID="{F1CE93FB-CFF1-4ECB-AD19-21DC299A7360}">
-					<ChildrenList>
-						<Action Name="" ID="{BF30D9C6-B7FA-481F-86E3-A1BB748EF95A}" ShortID="214019910">
+						<Action Name="" ID="{25F1B927-457D-4292-A555-2FF18AEC346D}" ShortID="738405800">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="11"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64" Value="-96"/>
+								<Property Name="ActionType" Type="int16" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Effect" ID="{39672198-C301-454F-ACC5-947A10BB19ED}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+									<ObjectRef Name="UI_In_Menu_Loop" ID="{22A9FD2D-673B-45D7-92CC-06FCE5552B2B}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
