@@ -1080,7 +1080,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8.4</Value>
+												<Value>-6.4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1116,7 +1116,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1205,7 +1205,7 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0.739817709370466</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1.26170406938366</RightEdgePos>
+												<RightEdgePos>1.37543274525693</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
