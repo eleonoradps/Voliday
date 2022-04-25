@@ -49,10 +49,17 @@
 				</Event>
 				<Event Name="Play_AMB_Ile_Altitude" ID="{A5618F45-ED87-4204-B7FE-B83097DC5616}">
 					<ChildrenList>
-						<Action Name="" ID="{67686DD7-3B9F-4F3A-BD37-E5D74929A207}" ShortID="159805746">
+						<Action Name="" ID="{6085303B-BF34-4652-BD17-5E8378308134}" ShortID="680712800">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Ile_Altitude" ID="{782FB5F6-7736-4A80-BB9C-F45B86D4349E}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+									<ObjectRef Name="AMB_Altitude_High_Vent" ID="{67E2A494-BEBB-4557-96DC-D5E798FDA514}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5DFF0AD3-BE22-42C9-A263-B4A7B7160348}" ShortID="991713497">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Altitude_Vent" ID="{B8453133-AF76-4332-A148-0A3FB91E382C}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -109,6 +116,12 @@
 									<ObjectRef Name="Play_SFX_Bruissement_Palmiers" ID="{BB536CD6-1185-4EB5-9561-D4EDB56ED6C3}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
 								</Reference>
 							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D3ED1BC9-C125-42FA-AAC9-BD8A6D939BE7}" ShortID="780120921">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>
