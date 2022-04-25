@@ -56,6 +56,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{746F54B0-FA34-4663-9B8F-5E59C8EF5A4F}" ShortID="320057012">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Popularite" ID="{51E3C5BB-6E70-4413-842B-EAEE4F933496}" WorkUnitID="{96B3209B-FCD0-4747-B44F-6A7FB6240357}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Fermeture_Menu" ID="{CC9139CF-3EBB-461C-985F-C04AB3149FB9}">
@@ -74,6 +84,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="UI_In_Menu_Loop" ID="{22A9FD2D-673B-45D7-92CC-06FCE5552B2B}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{358B86E5-402F-48AA-9DA5-F80182360197}" ShortID="840754349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Popularite" ID="{51E3C5BB-6E70-4413-842B-EAEE4F933496}" WorkUnitID="{96B3209B-FCD0-4747-B44F-6A7FB6240357}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
