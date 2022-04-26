@@ -14,6 +14,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="UI_Fermeture_Menu" ID="{0E64E13E-90EB-4B2E-97F8-8AB4E803E8C5}" ShortID="220358936">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -67,6 +74,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_Ouverture_Menu" ID="{51B9F6D5-E04A-41B8-BC16-185FF5E098B0}" ShortID="1048859911">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -90,6 +104,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_PauseGame" ID="{235ACE0D-7BC0-4C24-9CCD-96338EE08F12}" ShortID="840535349">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -189,6 +210,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_Game_Over" ID="{3E294289-3FA3-43F4-90D7-5EE72B99026B}" ShortID="496372826">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -209,56 +237,6 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="UI_Game_Over" ID="{A8A5042B-D9FB-4790-A0D9-483A74F99324}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="UI_Happy_Client" ID="{F393B77C-F360-4D2B-8805-F9CAE9A2A0B9}" ShortID="270876641">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{1075BD40-7DF2-4271-83E2-C2CC07C0EC01}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="253"/>
-													<Property Name="Min" Type="Real64" Value="-253"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{D16D1B6C-8FFA-4342-BBEE-DB0CB3C0185D}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Min" Type="Real64" Value="-3"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="UI_Happy_Client" ID="{835F963D-19C8-4847-AA66-F9FCB5E231E6}">
-									<Language>SFX</Language>
-									<AudioFile>UI\UI_Happy_Client.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="237556586"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="UI_Happy_Client" ID="{835F963D-19C8-4847-AA66-F9FCB5E231E6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_Speed_Down" ID="{93A21E13-64B3-4580-A421-354D43F895A2}" ShortID="703737800">
@@ -394,7 +372,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -424,7 +402,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -458,6 +436,11 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -479,66 +462,6 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="UI_In_Menu_Loop" ID="{A14F05D7-9C92-46D4-9D9E-70E7EFA65E9C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="UI_Port_Negatif" ID="{CEDCBF7E-C492-45EF-8376-2545F9D99DCB}" ShortID="390146352">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="UI_Port_Negatif" ID="{B5F79F86-AEB9-47F1-AC08-B2086A49365C}">
-									<Language>SFX</Language>
-									<AudioFile>UI\UI_Port_Negatif.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="950109690"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="UI_Port_Negatif" ID="{B5F79F86-AEB9-47F1-AC08-B2086A49365C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="UI_Port_Positif" ID="{B46341D0-43EF-4DB4-A2DE-32698B787A74}" ShortID="226991280">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="UI_Port_Positif" ID="{096E8C11-64E9-402A-80A7-EB25CEFE784B}">
-									<Language>SFX</Language>
-									<AudioFile>UI\UI_Port_Positif.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="746702558"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="UI_Port_Positif" ID="{096E8C11-64E9-402A-80A7-EB25CEFE784B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

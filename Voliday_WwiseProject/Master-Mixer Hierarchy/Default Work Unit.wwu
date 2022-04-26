@@ -48,6 +48,23 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="UI" ID="{E6AA55FD-4F13-42D1-9ABA-74265AA08CB4}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Gameflow" ID="{DCC0A286-FE05-4F6B-A9D0-692033873B96}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="In_Menu" ID="{CE12D326-EAB2-44DE-B636-CD2F2A2BC089}"/>
+										<CustomState Name="" ID="{E7B4085D-E9F4-4E72-BDE4-56236715DA19}" ShortID="445891332"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="In_Game" ID="{9329DF14-03B9-49E2-87C2-71EEA7117003}"/>
+										<CustomState Name="" ID="{CF12AFBB-6F9D-49CD-9DD2-B7B62050AF34}" ShortID="1062477720"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="AMB" ID="{921E6171-A71E-4063-91CE-E1F2D1668D93}">
@@ -62,8 +79,8 @@
 										<StateRef Name="In_Menu" ID="{CE12D326-EAB2-44DE-B636-CD2F2A2BC089}"/>
 										<CustomState Name="" ID="{8AE169A3-8B6B-40F3-97AD-B592D5ADFC84}" ShortID="411707226">
 											<PropertyList>
-												<Property Name="BusVolume" Type="Real64" Value="-12"/>
-												<Property Name="Lowpass" Type="int16" Value="20"/>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+												<Property Name="Lowpass" Type="int16" Value="34"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -87,7 +104,7 @@
 										<StateRef Name="In_Menu" ID="{CE12D326-EAB2-44DE-B636-CD2F2A2BC089}"/>
 										<CustomState Name="" ID="{45246B30-07BF-43FF-BBFE-A7FE20C039F7}" ShortID="678970313">
 											<PropertyList>
-												<Property Name="Lowpass" Type="int16" Value="52"/>
+												<Property Name="Lowpass" Type="int16" Value="48"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -107,7 +124,6 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
-							<ReferenceList/>
 							<ObjectLists/>
 						</AuxBus>
 					</ChildrenList>
