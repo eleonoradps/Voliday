@@ -3,30 +3,42 @@
 	<Events>
 		<WorkUnit Name="AMB" ID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}" OwnerID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Play_Ambiance" ID="{21882761-C978-45F0-81FE-AB8D64280D32}">
+				<Event Name="Play_SFX_Bruissement_Palmiers" ID="{BB536CD6-1185-4EB5-9561-D4EDB56ED6C3}">
 					<ChildrenList>
-						<Action Name="" ID="{417D60EC-71CD-45D5-BA41-77F04107EDBA}" ShortID="940119231">
+						<Action Name="" ID="{8B469253-A306-425D-B3E6-3868B6EFB3EF}" ShortID="307968545">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Ile_Altitude" ID="{782FB5F6-7736-4A80-BB9C-F45B86D4349E}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+									<ObjectRef Name="Ambiance_Palmiers" ID="{97383D66-B9D1-4A26-A82B-FB3981BAC69D}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{B4EC72A7-ACD5-4B15-B637-F9D02A9C86E5}" ShortID="358663819">
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiance_Plaine_Oiseaux_Rd" ID="{D4212515-5869-4696-8FF8-5D95B975E148}">
+					<ChildrenList>
+						<Action Name="" ID="{67902703-F915-440F-A157-B0A571BE7E9D}" ShortID="988559677">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Ile_Mer" ID="{0899EB21-15DF-4611-AD4A-FEBEF8E26152}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+									<ObjectRef Name="Ambiance_Plaine_Oiseaux_Rd" ID="{0E313505-124F-4F9E-B19D-3DCD9A97D1BD}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{41EFD9D4-EBB8-453D-BF20-27707F82E5DB}" ShortID="742432874">
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_Ile_Distance_Rivage" ID="{228A7805-EA6E-4EFC-917B-4FE84AE1D061}">
+					<ChildrenList>
+						<Action Name="" ID="{0F855719-2026-40FD-B87F-F9E8DA4C90E8}" ShortID="579070524">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Ile_Plage" ID="{26A380C2-9B8C-401F-9466-405886EFD66A}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+									<ObjectRef Name="AMB_Ile_Distance_Rivage" ID="{960FEFFB-C57C-4EB1-A2DD-934F0A8C7572}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{CB42B9CD-FD48-4D72-A269-B36E49ECD1BB}" ShortID="663392460">
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiance_Mer_Mouettes_Rd" ID="{903D2459-345C-42C8-9466-C34F6ACACE82}">
+					<ChildrenList>
+						<Action Name="" ID="{1E7602B5-2C83-4F96-A9C7-685ACD0DCDBC}" ShortID="669362711">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Ambiance_Mer_Mouettes_Rd" ID="{3B0101F4-4F28-4499-9018-182C34C19E5F}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
@@ -35,25 +47,81 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_SFX_Bruissement_Palmiers" ID="{BB536CD6-1185-4EB5-9561-D4EDB56ED6C3}">
+				<Event Name="Play_AMB_Ile_Altitude" ID="{A5618F45-ED87-4204-B7FE-B83097DC5616}">
 					<ChildrenList>
-						<Action Name="" ID="{8B469253-A306-425D-B3E6-3868B6EFB3EF}" ShortID="307968545">
+						<Action Name="" ID="{6085303B-BF34-4652-BD17-5E8378308134}" ShortID="680712800">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_3D_Palmier_Bruissements_Rd" ID="{576B6840-ABF0-4F3A-B7EA-4382A105EAED}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+									<ObjectRef Name="AMB_Altitude_High_Vent" ID="{67E2A494-BEBB-4557-96DC-D5E798FDA514}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5DFF0AD3-BE22-42C9-A263-B4A7B7160348}" ShortID="991713497">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Altitude_Vent" ID="{B8453133-AF76-4332-A148-0A3FB91E382C}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Ambiance_Riviere" ID="{703F042E-1C47-4C2E-88BD-0C18E317A2EA}">
+				<Event Name="Play_Amb" ID="{7A6889FB-9E1C-46E3-BE24-E85A1CB92015}">
 					<ChildrenList>
-						<Action Name="" ID="{3E2980BE-BCD6-466F-9FBE-196508D695EA}" ShortID="814136154">
+						<Action Name="" ID="{DDF54793-CC31-4A5F-B6E6-4E5166ED52D2}" ShortID="671537721">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ambiance_Riviere" ID="{A404A4A4-9664-48A1-AFA0-4C4EA762A514}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+									<ObjectRef Name="Play_AMB_Ile_Altitude" ID="{A5618F45-ED87-4204-B7FE-B83097DC5616}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
 								</Reference>
 							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B23B34E4-D4D4-40D2-9014-3422B9626500}" ShortID="137444154">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_AMB_Ile_Distance_Rivage" ID="{228A7805-EA6E-4EFC-917B-4FE84AE1D061}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F2BE770F-9746-413E-816D-3382BBD8AF6D}" ShortID="1016746326">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Ambiance_Mer_Mouettes_Rd" ID="{903D2459-345C-42C8-9466-C34F6ACACE82}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4F1299AF-A3FA-4C64-B2EF-1D2E253E9BA1}" ShortID="698373672">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Ambiance_Plaine_Oiseaux_Rd" ID="{D4212515-5869-4696-8FF8-5D95B975E148}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4A8B40A9-799E-488A-96BE-F57947BDA9DA}" ShortID="472143630">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_SFX_Bruissement_Palmiers" ID="{BB536CD6-1185-4EB5-9561-D4EDB56ED6C3}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D3ED1BC9-C125-42FA-AAC9-BD8A6D939BE7}" ShortID="780120921">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>

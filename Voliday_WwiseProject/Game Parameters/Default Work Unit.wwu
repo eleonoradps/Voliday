@@ -7,7 +7,8 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="2"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}">
@@ -21,7 +22,6 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="New_Game_Parameter" ID="{A01BC74A-DB63-43FE-9D29-72A95127DB75}"/>
 				<GameParameter Name="RTPC_Distance_Riviere" ID="{256A2891-B671-4575-99C5-0910898B5B05}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
@@ -38,6 +38,11 @@
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Menu" ID="{B2538099-E7E1-4C1D-8BC5-C308655A85DD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>
