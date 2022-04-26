@@ -6,8 +6,149 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{E94BECC6-A1FF-4024-A7B6-AFEBC6CFBC43}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Ambiance_Riviere" ID="{703F042E-1C47-4C2E-88BD-0C18E317A2EA}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
-							<Position X="0" Y="0"/>
+							<ObjectRef Name="AMB_Pad" ID="{A09E6620-5B64-4699-B46A-0948679D9E40}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Amb" ID="{7A6889FB-9E1C-46E3-BE24-E85A1CB92015}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Distance_Riviere" ID="{256A2891-B671-4575-99C5-0910898B5B05}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Filtre_Riviere" ID="{7BF74341-969F-4A99-94D2-0A7AE482783C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Menu" ID="{B2538099-E7E1-4C1D-8BC5-C308655A85DD}"/>
+							<Value>60.8847539015606</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Distance_Palmiers" ID="{58F7D119-CD33-4C1E-9C0B-864E0AF5BB42}"/>
+							<Value>0.14</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}"/>
+							<Value>0.75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Low_Pass" ID="{35FC4E5F-507A-4FF4-AE31-F995E2F45734}"/>
+							<Value>1.24091995536558E-311</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Star_0" ID="{ED1F48C4-0E6B-4D4B-A839-19488A2A8A79}"/>
+						<CurrentStateRef Name="In_Game" ID="{9329DF14-03B9-49E2-87C2-71EEA7117003}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session_01" ID="{B5B6D0F0-CC61-4A90-8ADF-07CD0EA838FF}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}"/>
+							<Value>0.01</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Low_Pass" ID="{35FC4E5F-507A-4FF4-AE31-F995E2F45734}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session_02" ID="{35E6939C-62DC-40E2-A670-5ACAE092F084}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}"/>
+							<Value>0.922772277227723</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Low_Pass" ID="{35FC4E5F-507A-4FF4-AE31-F995E2F45734}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="test amb" ID="{BFAFF59C-96D3-4002-8174-611033CF7E31}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_AMB_Ile_Altitude" ID="{A5618F45-ED87-4204-B7FE-B83097DC5616}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_Plaine_Oiseaux_Rd" ID="{D4212515-5869-4696-8FF8-5D95B975E148}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMB_Ile_Distance_Rivage" ID="{228A7805-EA6E-4EFC-917B-4FE84AE1D061}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Bruissement_Palmiers" ID="{BB536CD6-1185-4EB5-9561-D4EDB56ED6C3}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiance_Mer_Mouettes_Rd" ID="{903D2459-345C-42C8-9466-C34F6ACACE82}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}"/>
+							<Value>0.13614262560778</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Distance_Riviere" ID="{256A2891-B671-4575-99C5-0910898B5B05}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Filtre_Riviere" ID="{7BF74341-969F-4A99-94D2-0A7AE482783C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Menu" ID="{B2538099-E7E1-4C1D-8BC5-C308655A85DD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Distance_Palmiers" ID="{58F7D119-CD33-4C1E-9C0B-864E0AF5BB42}"/>
+							<Value>0.847267771446798</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}"/>
+							<Value>0.945513196480939</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Low_Pass" ID="{35FC4E5F-507A-4FF4-AE31-F995E2F45734}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{156B85EB-9767-4D04-931D-BDFFC2592EB8}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session_03" ID="{99F12A09-88E6-457F-A8BA-9F224F3CA880}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_AMB_Ile_Altitude" ID="{A5618F45-ED87-4204-B7FE-B83097DC5616}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+							<Position X="0" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -21,11 +162,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}"/>
-							<Value>0.0552813425468906</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="New_Game_Parameter" ID="{A01BC74A-DB63-43FE-9D29-72A95127DB75}"/>
-							<Value>50</Value>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
@@ -64,6 +201,10 @@
 							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="RTPC_Menu" ID="{B2538099-E7E1-4C1D-8BC5-C308655A85DD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="RTPC_Distance_Palmiers" ID="{58F7D119-CD33-4C1E-9C0B-864E0AF5BB42}"/>
 							<Value>0</Value>
 						</RTPCValue>
@@ -85,151 +226,13 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Low_Pass" ID="{35FC4E5F-507A-4FF4-AE31-F995E2F45734}"/>
-							<Value>1.24091995536558E-311</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Star_0" ID="{ED1F48C4-0E6B-4D4B-A839-19488A2A8A79}"/>
-						<CurrentStateRef Name="In_Menu" ID="{CE12D326-EAB2-44DE-B636-CD2F2A2BC089}"/>
+						<CurrentStateRef Name="In_Game" ID="{9329DF14-03B9-49E2-87C2-71EEA7117003}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
-				</SoundcasterSession>
-				<SoundcasterSession Name="New Soundcaster Session_01" ID="{B5B6D0F0-CC61-4A90-8ADF-07CD0EA838FF}">
-					<RTPCValueList ShowAll="true">
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
-							<Value>6</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
-							<Value>1</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}"/>
-							<Value>0.01</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
-							<Value>6</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
-							<Value>0</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
-							<Value>50</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
-							<Value>50</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
-							<Value>50</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
-							<Value>75</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
-							<Value>75</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
-							<Value>6</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}"/>
-							<Value>1</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
-							<Value>75</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
-							<Value>50</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_Low_Pass" ID="{35FC4E5F-507A-4FF4-AE31-F995E2F45734}"/>
-							<Value>0</Value>
-						</RTPCValue>
-					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
-				</SoundcasterSession>
-				<SoundcasterSession Name="New Soundcaster Session_02" ID="{35E6939C-62DC-40E2-A670-5ACAE092F084}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="AMB_Ile_Altitude" ID="{782FB5F6-7736-4A80-BB9C-F45B86D4349E}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-					</ModuleList>
-					<RTPCValueList ShowAll="true">
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
-							<Value>6</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
-							<Value>1</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}"/>
-							<Value>0</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
-							<Value>6</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
-							<Value>0</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
-							<Value>50</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
-							<Value>50</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
-							<Value>50</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
-							<Value>75</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
-							<Value>75</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
-							<Value>6</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}"/>
-							<Value>0.922772277227723</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
-							<Value>75</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
-							<Value>50</Value>
-						</RTPCValue>
-						<RTPCValue>
-							<GameParameterRef Name="RTPC_Low_Pass" ID="{35FC4E5F-507A-4FF4-AE31-F995E2F45734}"/>
-							<Value>0</Value>
-						</RTPCValue>
-					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

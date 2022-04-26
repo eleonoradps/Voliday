@@ -13,352 +13,11 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<BlendContainer Name="AMB_Ile_Altitude" ID="{782FB5F6-7736-4A80-BB9C-F45B86D4349E}" ShortID="578732763">
-							<PropertyList>
-								<Property Name="BlendBehavior" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="AMB_Pad_Altitude" ID="{A9A568AF-AFD1-49CE-A67D-65A628350FE9}" ShortID="504341023">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Pad montagne jour" ID="{7C662668-27F2-4628-9C8D-ED7CDD37B078}">
-											<Language>SFX</Language>
-											<AudioFile>Pad montagne jour.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="962753265"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Pad montagne jour" ID="{7C662668-27F2-4628-9C8D-ED7CDD37B078}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Ambiance_Plaine" ID="{3B01553C-16AA-4026-910D-B9A0BC23713F}" ShortID="219091061">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{F7B88E8C-6194-43A9-A3D5-DC05F988BE5F}" ShortID="781448316">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{678DF7FB-A1DD-4583-9398-CBB0B49C45DC}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Exp1</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>1.00235</XPos>
-																<YPos>-200</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>2</XPos>
-																<YPos>-200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Ambiance_Plaine" ID="{BDBF628D-F8C1-4042-8182-B3B523271CD6}">
-											<Language>SFX</Language>
-											<AudioFile>AMB\Ambiance_Plaine.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1062371952"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Ambiance_Plaine" ID="{BDBF628D-F8C1-4042-8182-B3B523271CD6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-							<BlendTrackList>
-								<BlendTrack Name="RTPC_Altitude" ID="{456CEF2E-D85B-4A42-9C3D-7B4D5EAACCF5}" ShortID="519888498">
-									<PropertyList>
-										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
-										</Reference>
-									</ReferenceList>
-									<BlendTrackAssocList>
-										<BlendTrackAssoc>
-											<ItemRef Name="Ambiance_Plaine" ID="{3B01553C-16AA-4026-910D-B9A0BC23713F}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>1.09281061458829</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="AMB_Pad_Altitude" ID="{A9A568AF-AFD1-49CE-A67D-65A628350FE9}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0.506307351848039</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>2</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-							</BlendTrackList>
-						</BlendContainer>
-						<Sound Name="AMB_Ile_Mer" ID="{0899EB21-15DF-4611-AD4A-FEBEF8E26152}" ShortID="993314593">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="IsStreamingEnabled" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{F0B1762C-B725-4F35-AB99-1108163B54AD}" ShortID="100513346">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{67E30D67-56AF-41A8-8FF2-980D2E85C0E1}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>1.00507</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>2</XPos>
-														<YPos>-200</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-										<RTPC Name="" ID="{FD52B7DA-C3DE-4897-81D9-3119E9124B3E}" ShortID="96120921">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{EC80F0EC-BBDB-4E1F-9B96-C0F8A7AD339D}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>0.74615</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp1</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>1.26037</XPos>
-														<YPos>-0.202</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>2</XPos>
-														<YPos>0</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="AMB_Pad_Mer" ID="{58D33C2A-D00E-427E-B55F-613C8797A34D}">
-									<Language>SFX</Language>
-									<AudioFile>AMB_Pad_Mer.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="459876787"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="AMB_Pad_Mer" ID="{58D33C2A-D00E-427E-B55F-613C8797A34D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="AMB_Ile_Plage" ID="{26A380C2-9B8C-401F-9466-405886EFD66A}" ShortID="742731432">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="IsStreamingEnabled" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{BD9FD6D3-6269-4AF5-BAD8-0A05586C1061}" ShortID="665583591">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{25CDC9CB-360C-4F6B-B676-DEFC8B6CB3A9}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>0.39563</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>2</XPos>
-														<YPos>-200</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-										<RTPC Name="" ID="{80E9A1F0-B8BF-45BF-AE68-25AF25ED2FF8}" ShortID="758932995">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{B2AC84BA-A058-4F20-9DFD-4DFCF3FB4818}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>0.72042</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Exp1</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>0.99805</XPos>
-														<YPos>-12.71202</YPos>
-														<Flags>0</Flags>
-														<SegmentShape>Log1</SegmentShape>
-													</Point>
-													<Point>
-														<XPos>1.26324</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>2</XPos>
-														<YPos>-200</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="AMB_Pad_Plage" ID="{1366FCC6-0E8F-4EB3-8E77-16392913BD96}">
-									<Language>SFX</Language>
-									<AudioFile>AMB\AMB_Pad_Plage.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="498963937"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="AMB_Pad_Plage" ID="{1366FCC6-0E8F-4EB3-8E77-16392913BD96}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<RandomSequenceContainer Name="Ambiance_Plaine_Oiseaux_Rd" ID="{0E313505-124F-4F9E-B19D-3DCD9A97D1BD}" ShortID="284755380">
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="1"/>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
@@ -381,6 +40,43 @@
 										<Value>-6</Value>
 									</ValueList>
 									<RTPCList>
+										<RTPC Name="" ID="{52AC9554-6092-45CD-BDB1-6A65C5F7B5AE}" ShortID="476037470">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3727F086-CD4C-4499-9EE3-62754FE1EA1D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0.152389999999997</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.41287</XPos>
+														<YPos>-0.15729</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.81664</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
 										<RTPC Name="" ID="{95B9D967-0D5D-4B85-8DB2-93023522D584}" ShortID="723305219">
 											<ReferenceList>
 												<Reference Name="ControlInput">
@@ -396,10 +92,10 @@
 														<XPos>0</XPos>
 														<YPos>0</YPos>
 														<Flags>5</Flags>
-														<SegmentShape>Exp1</SegmentShape>
+														<SegmentShape>Exp3</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>1.00235</XPos>
+														<XPos>1.05517</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 													</Point>
@@ -417,6 +113,9 @@
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
@@ -699,30 +398,7 @@
 										<ActiveSource Name="SFX_Oiseau_Tropical_Plaine_ 12" ID="{CA05660D-EC4C-47A2-A069-6E8346DD3160}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 13" ID="{C903317A-ADD6-4ABF-9913-FCFD59B3D2BB}" ShortID="878015222">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Oiseau_Tropical_Plaine_ 13" ID="{06722333-3D15-493C-BD60-CF2BE24DA7A6}">
-											<Language>SFX</Language>
-											<AudioFile>AMB\SFX_Oiseau_Tropical_Plaine_ 13.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="444513987"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Oiseau_Tropical_Plaine_ 13" ID="{06722333-3D15-493C-BD60-CF2BE24DA7A6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 14" ID="{CC9A02C0-D0CF-4303-8B58-943ACF0CE2E8}" ShortID="720649681">
+								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 13" ID="{CC9A02C0-D0CF-4303-8B58-943ACF0CE2E8}" ShortID="720649681">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -745,7 +421,7 @@
 										<ActiveSource Name="SFX_Oiseau_Tropical_Plaine_ 14" ID="{0C4887F4-1C0C-4652-801E-DB7993797DF1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 15" ID="{84AE188E-7A38-44F2-A49F-1E39FB0B16FD}" ShortID="71527572">
+								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 14" ID="{84AE188E-7A38-44F2-A49F-1E39FB0B16FD}" ShortID="71527572">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -768,7 +444,7 @@
 										<ActiveSource Name="SFX_Oiseau_Tropical_Plaine_ 15" ID="{1C29FBC8-2925-415D-A0F4-45D62A823AD1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 16" ID="{A3A15202-92A3-4E62-8EE8-BAEAA8DFE92F}" ShortID="125905399">
+								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 15" ID="{A3A15202-92A3-4E62-8EE8-BAEAA8DFE92F}" ShortID="125905399">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -791,7 +467,7 @@
 										<ActiveSource Name="SFX_Oiseau_Tropical_Plaine_ 16" ID="{82C7BACD-D591-47D9-97E7-09B867B2942D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 17" ID="{D7622E50-C47A-429D-BBBE-4C700051E19C}" ShortID="411137877">
+								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 16" ID="{D7622E50-C47A-429D-BBBE-4C700051E19C}" ShortID="411137877">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -814,7 +490,7 @@
 										<ActiveSource Name="SFX_Oiseau_Tropical_Plaine_ 17" ID="{FDE990B0-6B29-4F9B-89B4-0EE4C7C1F827}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 18" ID="{6DD5D40E-25DF-4B8B-8FDF-ADB07C2576F7}" ShortID="954089681">
+								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 17" ID="{6DD5D40E-25DF-4B8B-8FDF-ADB07C2576F7}" ShortID="954089681">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -837,7 +513,7 @@
 										<ActiveSource Name="SFX_Oiseau_Tropical_Plaine_ 18" ID="{91170051-9871-4C83-A165-E029DBF30B1F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 19" ID="{28334E5A-2F6A-459A-AC09-019F97582C3C}" ShortID="913500749">
+								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 18" ID="{28334E5A-2F6A-459A-AC09-019F97582C3C}" ShortID="913500749">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -860,7 +536,7 @@
 										<ActiveSource Name="SFX_Oiseau_Tropical_Plaine_ 19" ID="{277A7F87-1123-4910-A351-CC5B36C77AF1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 20" ID="{958449B7-4110-42C4-A3F6-8E2FDF4EFD02}" ShortID="656230880">
+								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 19" ID="{958449B7-4110-42C4-A3F6-8E2FDF4EFD02}" ShortID="656230880">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -883,7 +559,7 @@
 										<ActiveSource Name="SFX_Oiseau_Tropical_Plaine_ 20" ID="{1422B742-3E1E-4A49-9274-DB29C2522915}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 21" ID="{35079A9E-16B8-4463-9B2A-329998ABB475}" ShortID="420134345">
+								<Sound Name="SFX_Oiseau_Tropical_Plaine_ 20" ID="{35079A9E-16B8-4463-9B2A-329998ABB475}" ShortID="420134345">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -1190,6 +866,358 @@
 							</PositioningInfo>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<BlendContainer Name="AMB_Ile_Distance_Rivage" ID="{960FEFFB-C57C-4EB1-A2DD-934F0A8C7572}" ShortID="71566573">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{1F78DBF2-EA2B-4D13-B739-FB9E9F56C0ED}" ShortID="685928795">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{FBF54C63-3DD9-4D19-A879-311213F8B83E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.0655500000000018</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.46702</XPos>
+														<YPos>0.14743</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-12.99504</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Ile_Plage" ID="{26A380C2-9B8C-401F-9466-405886EFD66A}" ShortID="742731432">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6.4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="AMB" ID="{921E6171-A71E-4063-91CE-E1F2D1668D93}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Pad_Plage" ID="{1366FCC6-0E8F-4EB3-8E77-16392913BD96}">
+											<Language>SFX</Language>
+											<AudioFile>AMB\AMB_Pad_Plage.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="498963937"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Pad_Plage" ID="{1366FCC6-0E8F-4EB3-8E77-16392913BD96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambiance_Plaine" ID="{3B01553C-16AA-4026-910D-B9A0BC23713F}" ShortID="219091061">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="AMB" ID="{921E6171-A71E-4063-91CE-E1F2D1668D93}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiance_Plaine" ID="{BDBF628D-F8C1-4042-8182-B3B523271CD6}">
+											<Language>SFX</Language>
+											<AudioFile>AMB\Ambiance_Plaine.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1062371952"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiance_Plaine" ID="{BDBF628D-F8C1-4042-8182-B3B523271CD6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Mer" ID="{8FC9FED5-B490-45DC-9DE6-C2DBCFC05C91}" ShortID="987130376">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8.6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Mer" ID="{4D1F4CE4-D1C0-4A7F-A841-95B9D120F80B}">
+											<Language>SFX</Language>
+											<AudioFile>AMB\AMB_Mer.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="733501939"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Mer" ID="{4D1F4CE4-D1C0-4A7F-A841-95B9D120F80B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<BlendTrackList>
+								<BlendTrack Name="AMB_Ile_Sol_Distance" ID="{29C3306A-4FC1-4A54-B2A2-DEC9EF24FC85}" ShortID="511660456">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambiance_Plaine" ID="{3B01553C-16AA-4026-910D-B9A0BC23713F}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>0.941279935203122</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="AMB_Ile_Plage" ID="{26A380C2-9B8C-401F-9466-405886EFD66A}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0.739817709370466</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>1.37543274525693</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="AMB_Mer" ID="{8FC9FED5-B490-45DC-9DE6-C2DBCFC05C91}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>1.0639614655702</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>2</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<ActorMixer Name="AMB_Ile_Altitude" ID="{8576DA2F-179D-4B57-9A8B-EC7B14F4DA2C}" ShortID="948491836">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Altitude_Vent" ID="{B8453133-AF76-4332-A148-0A3FB91E382C}" ShortID="864985905">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{E2A3FDED-6DCE-4B19-9551-8C45F2E74DB7}" ShortID="170523731">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{3A0E122C-3992-4FD0-B27A-FCBB29963731}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.17588</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="AMB" ID="{921E6171-A71E-4063-91CE-E1F2D1668D93}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Altitude_Vent" ID="{C7739782-0EAF-4972-A1CD-DD9E38828AD7}">
+											<Language>SFX</Language>
+											<AudioFile>AMB\AMB_Altitude_Vent.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217068373"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Altitude_Vent" ID="{C7739782-0EAF-4972-A1CD-DD9E38828AD7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Altitude_High_Vent" ID="{67E2A494-BEBB-4557-96DC-D5E798FDA514}" ShortID="228650587">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-31</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{A0678AE5-679E-484B-AEC1-38BE4E20CDBE}" ShortID="582405807">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{8427AA43-D4E0-4089-8681-EB2773303F07}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.61245</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.7918</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="AMB" ID="{921E6171-A71E-4063-91CE-E1F2D1668D93}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Altitude_High_Vent" ID="{AAAFFCCD-3B71-47EE-96A6-25F6C5687EED}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Altitude_High_Vent.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986857869"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Altitude_High_Vent" ID="{AAAFFCCD-3B71-47EE-96A6-25F6C5687EED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
@@ -1222,6 +1250,9 @@
 						</Property>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{A2405C9E-BB41-42A5-A688-99091AB5C784}">
@@ -1233,42 +1264,38 @@
 								</ModifierInfo>
 							</ModifierList>
 							<RTPCList>
-								<RTPC Name="" ID="{6E653D3F-FA7E-4E0B-B772-08DE2B273D45}" ShortID="456176418">
+								<RTPC Name="" ID="{15619E1F-3E57-4DC0-BCD7-7AD558484790}" ShortID="637923574">
 									<ReferenceList>
 										<Reference Name="ControlInput">
 											<ObjectRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
 										</Reference>
 									</ReferenceList>
-									<Curve Name="" ID="{A13D990B-D76D-47AF-AB86-95961B9EA48F}">
+									<Curve Name="" ID="{BEE027FF-ADE6-40A1-8201-57E3C8F10A76}">
 										<PropertyList>
 											<Property Name="Flags" Type="int32" Value="3"/>
 										</PropertyList>
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>-19.48784</YPos>
+												<YPos>-0.15239</YPos>
 												<Flags>5</Flags>
+												<SegmentShape>Exp2</SegmentShape>
 											</Point>
 											<Point>
-												<XPos>0.001</XPos>
-												<YPos>-18.2855</YPos>
-												<Flags>0</Flags>
-												<SegmentShape>Log2</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>0.79754</XPos>
-												<YPos>-0.06417</YPos>
+												<XPos>0.38045</XPos>
+												<YPos>0.01786</YPos>
 												<Flags>0</Flags>
 												<SegmentShape>Exp2</SegmentShape>
 											</Point>
 											<Point>
-												<XPos>1.25199</XPos>
-												<YPos>-13.30824</YPos>
+												<XPos>0.80584</XPos>
+												<YPos>-200</YPos>
 												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
-												<XPos>2</XPos>
-												<YPos>-13.4488</YPos>
+												<XPos>1</XPos>
+												<YPos>-200</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -1291,9 +1318,10 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>0.43141</XPos>
+												<XPos>0.49143</XPos>
 												<YPos>-200</YPos>
 												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>1</XPos>
@@ -1314,6 +1342,9 @@
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="AMB" ID="{921E6171-A71E-4063-91CE-E1F2D1668D93}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
@@ -1410,6 +1441,144 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="SFX_Mouette_4" ID="{B4BA8FB8-5BA2-48FB-9DD6-43EBEF264F27}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Mouette_ 5" ID="{52ABA167-F3F3-4B3A-96F3-561FD60563E2}" ShortID="617348367">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Mouette_ 5" ID="{FA15462B-C828-4ECF-8A06-D43A89867DDB}">
+									<Language>SFX</Language>
+									<AudioFile>AMB\SFX_Mouette_ 5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="996487590"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Mouette_ 5" ID="{FA15462B-C828-4ECF-8A06-D43A89867DDB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Mouette_ 6" ID="{771F2AAC-AB89-4B7D-AF32-493141C8B8B5}" ShortID="713685028">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Mouette_ 6" ID="{93762801-DBD9-4A40-A1B8-0D1F8F702E81}">
+									<Language>SFX</Language>
+									<AudioFile>AMB\SFX_Mouette_ 6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="19252495"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Mouette_ 6" ID="{93762801-DBD9-4A40-A1B8-0D1F8F702E81}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Mouette_ 7" ID="{CD0FA228-890A-43F2-866A-CB82D257FEF7}" ShortID="561978241">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Mouette_ 7" ID="{7AE2D82E-264E-499E-A3E6-7DDD985204D0}">
+									<Language>SFX</Language>
+									<AudioFile>AMB\SFX_Mouette_ 7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="825132855"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Mouette_ 7" ID="{7AE2D82E-264E-499E-A3E6-7DDD985204D0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Mouette_ 8" ID="{9A4918A1-25CB-42B2-A2C6-FFAAE005A242}" ShortID="605881492">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Mouette_ 8" ID="{87AF429E-DF85-4EF8-AC02-D47A287D6816}">
+									<Language>SFX</Language>
+									<AudioFile>AMB\SFX_Mouette_ 8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="838423333"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Mouette_ 8" ID="{87AF429E-DF85-4EF8-AC02-D47A287D6816}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Mouette_ 9" ID="{8902035D-E76F-4134-A94B-298CBA40C250}" ShortID="378817938">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Mouette_ 9" ID="{6DCDD1A7-EC65-4493-9B77-A9749652F19E}">
+									<Language>SFX</Language>
+									<AudioFile>AMB\SFX_Mouette_ 9.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="841768989"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Mouette_ 9" ID="{6DCDD1A7-EC65-4493-9B77-A9749652F19E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Mouette_ 10" ID="{C2155D87-07FE-4B81-B200-D6F916854AEA}" ShortID="1067608965">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Mouette_ 10" ID="{F1E7DC78-F13B-4BF7-94D1-563635FAF61C}">
+									<Language>SFX</Language>
+									<AudioFile>AMB\SFX_Mouette_ 10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="211708672"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Mouette_ 10" ID="{F1E7DC78-F13B-4BF7-94D1-563635FAF61C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -1534,14 +1703,46 @@
 								<Path2D Name="Ambiance_Mer_Mouettes_Rd_Path 8" ID="{3CA669ED-B989-48DA-A4A4-F2FFAE468A8C}">
 									<PointList>
 										<Point>
-											<XPos>-3.99113</XPos>
-											<YPos>8.87446</YPos>
+											<XPos>27.93792</XPos>
+											<YPos>56.32901</YPos>
 											<Flags>12</Flags>
 											<Time>0</Time>
 										</Point>
 										<Point>
-											<XPos>-41.9068736141907</XPos>
-											<YPos>96.5367965367965</YPos>
+											<XPos>-16.62971</XPos>
+											<YPos>56.27706</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Ambiance_Mer_Mouettes_Rd_Path" ID="{C27BE3D4-E7C8-4AA1-9BEF-31D96230EC31}">
+									<PointList>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>79.87013</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>85.3658536585366</XPos>
+											<YPos>73.5930735930736</YPos>
+											<Flags>0</Flags>
+											<Time>5000</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+								<Path2D Name="Ambiance_Mer_Mouettes_Rd_Path_01" ID="{C6C53B9C-FD8E-4FA5-8B42-5B6C1D1FC5FA}">
+									<PointList>
+										<Point>
+											<XPos>13.74723</XPos>
+											<YPos>85.93074</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+										<Point>
+											<XPos>44.5676274944568</XPos>
+											<YPos>92.2077922077922</YPos>
 											<Flags>0</Flags>
 											<Time>5000</Time>
 										</Point>
@@ -1660,38 +1861,75 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<RTPCList>
-								<RTPC Name="" ID="{40D0DE35-88FB-4EB7-8794-5BC421033845}" ShortID="155352999">
+								<RTPC Name="" ID="{DDDC3206-CCC1-496D-8D94-7CE24E4F13C9}" ShortID="1049716302">
 									<ReferenceList>
 										<Reference Name="ControlInput">
-											<ObjectRef Name="RTPC_Distance_Palmiers" ID="{58F7D119-CD33-4C1E-9C0B-864E0AF5BB42}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
+											<ObjectRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
 										</Reference>
 									</ReferenceList>
-									<Curve Name="" ID="{63501F4A-D75C-41D8-AAFE-5AF8CE136B3C}">
+									<Curve Name="" ID="{EAE19A78-8D33-4A47-BCD5-CD9921C42B14}">
 										<PropertyList>
 											<Property Name="Flags" Type="int32" Value="3"/>
 										</PropertyList>
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>-2.86182</YPos>
+												<YPos>-0.152389999999997</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.18598</XPos>
+												<YPos>0.05359</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.50212</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{C02A3F12-51C1-4079-9713-254C2C5030AF}" ShortID="367210119">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}" WorkUnitID="{1D104F56-2D39-4615-AA8A-E7C167C8048F}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8096BC62-DC25-4123-8869-5166E60F9AE0}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-2.62824</YPos>
 												<Flags>5</Flags>
 												<SegmentShape>Log1</SegmentShape>
 											</Point>
 											<Point>
-												<XPos>0.8359</XPos>
-												<YPos>0.12738</YPos>
+												<XPos>0.89091</XPos>
+												<YPos>-0.11659</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Exp1</SegmentShape>
+												<SegmentShape>Exp2</SegmentShape>
 											</Point>
 											<Point>
-												<XPos>1.03173</XPos>
-												<YPos>-7.2437</YPos>
+												<XPos>1.15542</XPos>
+												<YPos>-200</YPos>
 												<Flags>0</Flags>
-												<SegmentShape>Log3</SegmentShape>
+												<SegmentShape>Log2</SegmentShape>
 											</Point>
 											<Point>
 												<XPos>2</XPos>
-												<YPos>-33.9794</YPos>
+												<YPos>-200</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -1705,11 +1943,19 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+							<ObjectRef Name="AMB" ID="{921E6171-A71E-4063-91CE-E1F2D1668D93}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Ambiance_Palmiers" ID="{97383D66-B9D1-4A26-A82B-FB3981BAC69D}" ShortID="1028702027">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
