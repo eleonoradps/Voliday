@@ -331,6 +331,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UX_Etoile_0_1_2" ID="{D0D168B7-A9B2-4D98-B60F-4180776506B5}" ShortID="937613729">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -354,6 +361,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UX_Etoile_3_4" ID="{9B992E44-23AE-48F2-9CD7-00CE846B87A5}" ShortID="897433346">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -377,6 +391,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UX_Etoile_5" ID="{39B912F6-9E0A-4B26-AC2F-1464BC9F27A4}" ShortID="232572915">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -400,6 +421,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UX_Etoile_Moins" ID="{23D92902-1DF0-431E-8EDE-2285DCB4EA9B}" ShortID="406579165">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -457,7 +485,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

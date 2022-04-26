@@ -150,6 +150,10 @@
 							<ObjectRef Name="Play_AMB_Ile_Altitude" ID="{A5618F45-ED87-4204-B7FE-B83097DC5616}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
 							<Position X="0" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMB_Ile_Distance_Rivage" ID="{228A7805-EA6E-4EFC-917B-4FE84AE1D061}" WorkUnitID="{ED690985-E68B-4DB6-85A9-23CFC04EDCA0}"/>
+							<Position X="2" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -162,7 +166,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Altitude" ID="{7C16CB30-A704-4322-8879-219FBB7423B5}"/>
-							<Value>1</Value>
+							<Value>0.679611650485437</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
@@ -214,7 +218,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Distance" ID="{C2AE1739-BF7D-4D49-810F-522360C89D5D}"/>
-							<Value>0</Value>
+							<Value>1.05825242718447</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
