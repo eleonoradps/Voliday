@@ -27,10 +27,24 @@
 				</Event>
 				<Event Name="Play_AMB_Ile_Distance_Rivage" ID="{228A7805-EA6E-4EFC-917B-4FE84AE1D061}">
 					<ChildrenList>
-						<Action Name="" ID="{0F855719-2026-40FD-B87F-F9E8DA4C90E8}" ShortID="579070524">
+						<Action Name="" ID="{86BB7064-E82D-4774-9882-1D18BA2CACEE}" ShortID="184435116">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Ile_Distance_Rivage" ID="{960FEFFB-C57C-4EB1-A2DD-934F0A8C7572}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+									<ObjectRef Name="AMB_Ile_Plage" ID="{26A380C2-9B8C-401F-9466-405886EFD66A}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E108CC3-DBC5-4182-AFA3-DF372FAF3A6C}" ShortID="3390156">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Mer" ID="{8FC9FED5-B490-45DC-9DE6-C2DBCFC05C91}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9CD4E9D7-9C2F-449D-B673-CEF5CECB0818}" ShortID="903494821">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_Plaine" ID="{3B01553C-16AA-4026-910D-B9A0BC23713F}" WorkUnitID="{F59BAB19-0AAC-4C40-ADBC-FAE3890AD639}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

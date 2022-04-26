@@ -4,6 +4,13 @@
 		<WorkUnit Name="SFX" ID="{39BD933E-60F1-4FF3-9399-6412D66742FA}" OwnerID="{9396CAF2-FC0F-487E-9DCE-9729BE705D37}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="SFX_Batiments" ID="{693808BF-F47F-43CF-8C15-A2DEA66CB01A}" ShortID="636739361">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -37,6 +44,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SFX_Chateau" ID="{5FAC83FF-CDB3-4853-A7B3-80B514D162E8}" ShortID="542669306">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -129,6 +143,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SFX_Port" ID="{FE76DAD3-943F-4432-9C8F-9E0253A83D0A}" ShortID="1053717992">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C3856F6-67E2-4999-B133-D46D2EC0361B}"/>
@@ -347,7 +368,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-2</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
