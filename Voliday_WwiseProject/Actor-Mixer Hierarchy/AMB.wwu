@@ -879,11 +879,6 @@
 								<Sound Name="AMB_Altitude_Vent" ID="{B8453133-AF76-4332-A148-0A3FB91E382C}" ShortID="864985905">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-2</Value>
@@ -953,11 +948,6 @@
 								<Sound Name="AMB_Altitude_High_Vent" ID="{67E2A494-BEBB-4557-96DC-D5E798FDA514}" ShortID="228650587">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-31</Value>
@@ -1076,11 +1066,6 @@
 								<Sound Name="AMB_Mer" ID="{8FC9FED5-B490-45DC-9DE6-C2DBCFC05C91}" ShortID="987130376">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-8.6</Value>
@@ -1150,11 +1135,6 @@
 								<Sound Name="AMB_Ile_Plage" ID="{26A380C2-9B8C-401F-9466-405886EFD66A}" ShortID="742731432">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-6.4</Value>
@@ -1229,11 +1209,6 @@
 								<Sound Name="Ambiance_Plaine" ID="{3B01553C-16AA-4026-910D-B9A0BC23713F}" ShortID="219091061">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>4</Value>
@@ -2034,11 +2009,6 @@
 						<Sound Name="Ambiance_Palmiers" ID="{97383D66-B9D1-4A26-A82B-FB3981BAC69D}" ShortID="1028702027">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="IsStreamingEnabled" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
