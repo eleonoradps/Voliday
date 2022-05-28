@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1434884-C429-440F-AAF7-043E7897373E}" SchemaVersion="103" RootDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" ParentDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}">
+	<Events>
+		<WorkUnit Name="SFX" ID="{B1434884-C429-440F-AAF7-043E7897373E}" OwnerID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="SFX_Batiments" ID="{8C5D0350-7295-4D2E-B298-968E8523D0CE}" ShortID="482136360">
+					<ChildrenList>
+						<Event Name="Play_SFX_Auberge" ID="{D16B0DD5-9318-4B5C-B2F2-5EE8FF8A2762}">
+							<ChildrenList>
+								<Action Name="" ID="{DE24EDD3-57C8-4240-962C-98EE11C82BAE}" ShortID="606655205">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Auberge" ID="{CA21DE58-3772-4BBD-8A09-43ABCA08088A}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Boutique_Pierres_precieuses" ID="{E2D20D3C-26A2-4D09-8377-F504054311A9}">
+							<ChildrenList>
+								<Action Name="" ID="{A521A7E4-14F6-4E29-BFA8-90F05162B185}" ShortID="110752576">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Boutique_Pierres_Precieuses" ID="{38D80CB4-FB9E-4761-9786-217A3B48BCB8}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Charette" ID="{D0160609-8CE6-469F-BF3C-D222C1C7CC31}">
+							<ChildrenList>
+								<Action Name="" ID="{A52C08AA-A383-485C-8188-7658F75DA9B2}" ShortID="168900230">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Charette" ID="{6A6ABF98-EC16-43C7-9DB9-5332E8FDEE17}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Chateau" ID="{E1072485-75A3-4780-9F84-6D6429CF6F7F}">
+							<ChildrenList>
+								<Action Name="" ID="{3B910E35-286B-4552-85E4-D61190C60064}" ShortID="931615215">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Chateau" ID="{5FAC83FF-CDB3-4853-A7B3-80B514D162E8}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Marche" ID="{39B7AD52-E628-41C8-8259-C9CA8C5FA5BB}">
+							<ChildrenList>
+								<Action Name="" ID="{8BE40DAC-E7C6-4CBF-ABDD-A428455886E5}" ShortID="553552131">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Marche" ID="{30460CC8-3022-4183-B6FE-AAF078F541F3}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Moulin_Eau" ID="{F23136F2-A40B-4D6F-9152-A233509D4B24}">
+							<ChildrenList>
+								<Action Name="" ID="{1BED881F-ADEB-40AF-9A02-9AF7715B41BC}" ShortID="675298372">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Moulin_Eau" ID="{F1224431-9022-4BF4-A5C7-3727E8C35408}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Moulin_Vent" ID="{1D09A8FE-F0AB-4260-83F6-965798FAEB46}">
+							<ChildrenList>
+								<Action Name="" ID="{D45A4071-22BC-43C8-AD88-6908EAE9C8C1}" ShortID="533872842">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Moulin_Vent" ID="{427BBC4A-D2DE-4775-854A-EC8E687473D8}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Port" ID="{4C2EA6B7-BD78-49D5-A739-2503DF972D2F}">
+							<ChildrenList>
+								<Action Name="" ID="{2EBDF98E-C2DF-46C1-8699-0E4DB13D1D23}" ShortID="392380805">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Port" ID="{FE76DAD3-943F-4432-9C8F-9E0253A83D0A}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Puits" ID="{7BD24280-1200-417D-B779-4825815447E0}">
+							<ChildrenList>
+								<Action Name="" ID="{952C7F21-3DCB-4825-B74D-18D242AC7278}" ShortID="281494638">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Puits" ID="{9AE37800-EFB4-4F95-B04E-77EBE79F3A6E}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Randonnee" ID="{DEB99A13-C89C-40CD-9915-6DBAD3663B55}">
+							<ChildrenList>
+								<Action Name="" ID="{9E47F150-B60B-47B5-B6E8-CD23FA3E2BB0}" ShortID="305486513">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Randonnee" ID="{84129254-21C3-4F6F-A488-96278C810C92}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Restaurant_Fruit_de_mer" ID="{E9509F8E-F5E4-4F2E-9F74-D9D6C412652A}">
+							<ChildrenList>
+								<Action Name="" ID="{6193EFA5-FB63-4E89-B743-77D07D14C39D}" ShortID="122670766">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Restaurant_Fruit_de_mer" ID="{B5065D17-AB55-46EF-889D-08813669D367}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Source_Eau_Chaude" ID="{C39B3924-A4D4-443E-8A18-CE344C5BBF7F}">
+							<ChildrenList>
+								<Action Name="" ID="{24F043B3-975C-44E1-AA50-BB0809DBF577}" ShortID="96673958">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Source_Eau_Chaude" ID="{3A8BD7B3-2008-47BD-AB22-19C171CC81FA}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Tavern" ID="{9CE56E9A-105A-4F72-A1AC-5305B146B53D}">
+							<ChildrenList>
+								<Action Name="" ID="{03C02537-4856-4322-8031-5CAA669C67BC}" ShortID="490593171">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Tavern" ID="{203DF061-BE5C-4CEF-90E1-27F22821C2CB}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Tropical_Bar" ID="{AB716C79-7C38-4936-9621-91FF09F1CF4D}">
+							<ChildrenList>
+								<Action Name="" ID="{743D59B9-349A-47A7-AE36-F53DCBA96BAE}" ShortID="1042776069">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Tropical_Bar" ID="{EB7EA830-61C8-43BE-842C-718A2FF5BEC6}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_Construction_Batiments" ID="{CC81D2D4-1C29-4B2B-99C8-2E4A61D94267}" ShortID="50695334">
+					<ChildrenList>
+						<Event Name="Play_SFX_Construction_Batiments" ID="{0C36D0EE-AD64-40F7-A105-91B204FFF44A}">
+							<ChildrenList>
+								<Action Name="" ID="{7F1344B9-C3C2-45BA-BE28-DD44D3E4A40B}" ShortID="397209722">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Construction_Batiments" ID="{04DCA945-931C-46E2-BC88-D5E4EDEAC2E5}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_Destruction_Batiment" ID="{8A2A0519-B579-4E69-BE0D-93547692DAF1}" ShortID="159676976">
+					<ChildrenList>
+						<Event Name="Play_SFX_Destruction_Batiment" ID="{D9B967C6-9D3F-4DEA-8000-BB954C49F3D7}">
+							<ChildrenList>
+								<Action Name="" ID="{19787A5C-1FBF-4EA9-9D36-C7136F561E22}" ShortID="27189273">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Destruction_Batiment" ID="{7D293429-EA49-43F0-B39C-C75D72774DDF}" WorkUnitID="{39BD933E-60F1-4FF3-9399-6412D66742FA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{939A5FBD-DE51-45AF-919D-35468FAAD1DD}" WorkUnitID="{4BD9DAD1-434B-4AB8-BBA9-8374A11C6BC1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MUSIC" ID="{95B47137-0AE2-4407-917A-BB26B7A30414}">
+							<ChildrenList>
+								<Bus Name="Music_In_Game" ID="{F0D27273-1FDC-43D9-BDAE-00852A17D32B}">
+									<ReferenceList>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Effect" ID="{39672198-C301-454F-ACC5-947A10BB19ED}" WorkUnitID="{E756B6FE-A070-4EC4-9958-ACA7358CCCBD}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Gameflow" ID="{DCC0A286-FE05-4F6B-A9D0-692033873B96}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="In_Menu" ID="{CE12D326-EAB2-44DE-B636-CD2F2A2BC089}"/>
+												<CustomState Name="" ID="{673D3C11-ACD2-4B7F-BFB5-FE2B43522DC2}" ShortID="988059363">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="In_Game" ID="{9329DF14-03B9-49E2-87C2-71EEA7117003}"/>
+												<CustomState Name="" ID="{1330BACF-1895-476A-AFE6-87106FC0AD10}" ShortID="215857058"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Music_Menu" ID="{A491D6C6-BD6F-4E99-9E92-5431856A46B3}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="UI" ID="{E6AA55FD-4F13-42D1-9ABA-74265AA08CB4}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Gameflow" ID="{DCC0A286-FE05-4F6B-A9D0-692033873B96}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="In_Menu" ID="{CE12D326-EAB2-44DE-B636-CD2F2A2BC089}"/>
+										<CustomState Name="" ID="{E7B4085D-E9F4-4E72-BDE4-56236715DA19}" ShortID="445891332"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="In_Game" ID="{9329DF14-03B9-49E2-87C2-71EEA7117003}"/>
+										<CustomState Name="" ID="{CF12AFBB-6F9D-49CD-9DD2-B7B62050AF34}" ShortID="1062477720"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="AMB" ID="{921E6171-A71E-4063-91CE-E1F2D1668D93}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Gameflow" ID="{DCC0A286-FE05-4F6B-A9D0-692033873B96}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="In_Menu" ID="{CE12D326-EAB2-44DE-B636-CD2F2A2BC089}"/>
+										<CustomState Name="" ID="{8AE169A3-8B6B-40F3-97AD-B592D5ADFC84}" ShortID="411707226">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-6"/>
+												<Property Name="Lowpass" Type="int16" Value="34"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="In_Game" ID="{9329DF14-03B9-49E2-87C2-71EEA7117003}"/>
+										<CustomState Name="" ID="{7D70BCBE-A622-4D42-9312-6F1ECC9F4AB3}" ShortID="288240024"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="SFX" ID="{ED14B122-6288-4EE6-990E-F575C06872A3}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Gameflow" ID="{DCC0A286-FE05-4F6B-A9D0-692033873B96}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="In_Menu" ID="{CE12D326-EAB2-44DE-B636-CD2F2A2BC089}"/>
+										<CustomState Name="" ID="{45246B30-07BF-43FF-BBFE-A7FE20C039F7}" ShortID="678970313">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="48"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="In_Game" ID="{9329DF14-03B9-49E2-87C2-71EEA7117003}"/>
+										<CustomState Name="" ID="{B72900D8-E761-49DD-B4E9-1C36F2FA438B}" ShortID="744815917"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="Effect" ID="{39672198-C301-454F-ACC5-947A10BB19ED}">
+							<PropertyList>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</AuxBus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="Default_Motion_Device" ID="{315DDEFF-810B-458E-8F24-C226644D935D}" WorkUnitID="{4BD9DAD1-434B-4AB8-BBA9-8374A11C6BC1}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

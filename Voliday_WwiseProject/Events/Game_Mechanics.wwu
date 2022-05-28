@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{586E9A77-00F7-49A7-AD1C-EF78134D1DF8}" SchemaVersion="103" RootDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" ParentDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}">
+	<Events>
+		<WorkUnit Name="Game_Mechanics" ID="{586E9A77-00F7-49A7-AD1C-EF78134D1DF8}" OwnerID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Set_State_In_Menu" ID="{7722EB5A-51C4-4F9D-87E2-2C26D1B4908A}">
+					<ChildrenList>
+						<Action Name="" ID="{8D695B7D-4F42-4016-9FB5-4FCE710AAE65}" ShortID="550130143">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="In_Menu" ID="{CE12D326-EAB2-44DE-B636-CD2F2A2BC089}" WorkUnitID="{6151A936-982C-4051-AB40-51F3F782AB15}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7068750D-2FF5-4D34-A470-B080A62F2605}" ShortID="506887785">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_UI_Ouverture_Menu" ID="{578506F2-9795-4EA9-8245-9F8C9E2D8D9D}" WorkUnitID="{069F4F4C-FCC2-4CA4-87A5-48D5F6898033}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6FAABAF8-1E91-4FE8-A8E7-15ECBC802D4A}" ShortID="19149379">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_In_Menu_Loop" ID="{22A9FD2D-673B-45D7-92CC-06FCE5552B2B}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{18E76209-2A39-46E9-A4DF-6A7BA5E9B0DC}" ShortID="390903099">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Popularite" ID="{51E3C5BB-6E70-4413-842B-EAEE4F933496}" WorkUnitID="{96B3209B-FCD0-4747-B44F-6A7FB6240357}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_State_In_Game" ID="{DAA228E4-DED2-4B66-917C-541BB3D28491}">
+					<ChildrenList>
+						<Action Name="" ID="{84487003-0D52-48D4-9EC5-8CBA1D46CDDE}" ShortID="497439925">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="In_Game" ID="{9329DF14-03B9-49E2-87C2-71EEA7117003}" WorkUnitID="{6151A936-982C-4051-AB40-51F3F782AB15}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{64B87D60-322B-41F8-9CDC-931FE2ED7E8F}" ShortID="706051774">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Music" ID="{78EB03BE-CF57-4E36-98E9-2884C6F162BF}" WorkUnitID="{2067BBDB-A974-49F4-92C6-A6BEAD231BDE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

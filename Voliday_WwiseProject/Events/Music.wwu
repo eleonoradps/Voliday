@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2067BBDB-A974-49F4-92C6-A6BEAD231BDE}" SchemaVersion="103" RootDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" ParentDocumentID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}">
+	<Events>
+		<WorkUnit Name="Music" ID="{2067BBDB-A974-49F4-92C6-A6BEAD231BDE}" OwnerID="{558CC56F-DD2C-4E6D-B1FC-2B7F4A12A2F1}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{78EB03BE-CF57-4E36-98E9-2884C6F162BF}">
+					<ChildrenList>
+						<Action Name="" ID="{E621DC77-D5F3-4E18-9818-3C95778B1204}" ShortID="892436193">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Popularite" ID="{51E3C5BB-6E70-4413-842B-EAEE4F933496}" WorkUnitID="{96B3209B-FCD0-4747-B44F-6A7FB6240357}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{4598A9FA-7E5E-46EE-B0A4-C999699E1D85}">
+					<ChildrenList>
+						<Action Name="" ID="{C9D833CD-4C27-418C-AE23-8F8F95CA8C3E}" ShortID="1066172870">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Popularite" ID="{51E3C5BB-6E70-4413-842B-EAEE4F933496}" WorkUnitID="{96B3209B-FCD0-4747-B44F-6A7FB6240357}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ouverture_Menu" ID="{70A4DB0B-D0F5-456B-BFC6-7D8D5965E0CA}">
+					<ChildrenList>
+						<Action Name="" ID="{71A10173-3364-40A7-800D-40D3AABC7398}" ShortID="91053521">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Ouverture_Menu" ID="{51B9F6D5-E04A-41B8-BC16-185FF5E098B0}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{12F9D684-31D9-4D26-BA50-05F1E4D8ABD2}" ShortID="457402566">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_In_Menu_Loop" ID="{22A9FD2D-673B-45D7-92CC-06FCE5552B2B}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A09E5A72-B5D2-495D-9E12-09AF5C08D830}" ShortID="237450036">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_PauseGame" ID="{235ACE0D-7BC0-4C24-9CCD-96338EE08F12}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{746F54B0-FA34-4663-9B8F-5E59C8EF5A4F}" ShortID="320057012">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Popularite" ID="{51E3C5BB-6E70-4413-842B-EAEE4F933496}" WorkUnitID="{96B3209B-FCD0-4747-B44F-6A7FB6240357}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Fermeture_Menu" ID="{CC9139CF-3EBB-461C-985F-C04AB3149FB9}">
+					<ChildrenList>
+						<Action Name="" ID="{B6B6ECCC-8FD1-484A-B2DE-D510C98E2CA1}" ShortID="362839919">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Fermeture_Menu" ID="{0E64E13E-90EB-4B2E-97F8-8AB4E803E8C5}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{25F1B927-457D-4292-A555-2FF18AEC346D}" ShortID="738405800">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_In_Menu_Loop" ID="{22A9FD2D-673B-45D7-92CC-06FCE5552B2B}" WorkUnitID="{FF0A9A38-2BCD-4454-BDF0-11037A4A2BBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{358B86E5-402F-48AA-9DA5-F80182360197}" ShortID="840754349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Popularite" ID="{51E3C5BB-6E70-4413-842B-EAEE4F933496}" WorkUnitID="{96B3209B-FCD0-4747-B44F-6A7FB6240357}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
