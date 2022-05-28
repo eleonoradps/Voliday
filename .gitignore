@@ -75,6 +75,9 @@ Voliday_WwiseProject/GeneratedSoundBanks/*
 
 # Wwise files from https://gist.github.com/binary1230/983ca3168c8a92ab7b295b2a47a84b84
 Voliday_WwiseProject/*.prof
-Voliday_WwiseProject/*_WwiseProject.*.validationcache
-Voliday_WwiseProject/*_WwiseProject.*.wsettings
+Voliday_WwiseProject/*.*.validationcache
+Voliday_WwiseProject/*.*.wsettings
 Voliday_WwiseProject/**/*.akd
+
+# Generated audio assets
+Content/Assets/Sounds/WwiseAudio/**/*.uasset
