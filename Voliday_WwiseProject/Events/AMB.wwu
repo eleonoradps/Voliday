@@ -131,12 +131,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{D3ED1BC9-C125-42FA-AAC9-BD8A6D939BE7}" ShortID="780120921">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList/>
-						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

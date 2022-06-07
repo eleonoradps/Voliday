@@ -21,7 +21,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Play_UI_Ouverture_Menu" ID="{578506F2-9795-4EA9-8245-9F8C9E2D8D9D}" WorkUnitID="{069F4F4C-FCC2-4CA4-87A5-48D5F6898033}"/>
+									<ObjectRef Name="Ouverture_Menu" ID="{70A4DB0B-D0F5-456B-BFC6-7D8D5965E0CA}" WorkUnitID="{2067BBDB-A974-49F4-92C6-A6BEAD231BDE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
